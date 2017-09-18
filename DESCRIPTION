@@ -1,0 +1,20 @@
+Package: blg
+Type: Package
+Title: Helper functions and data (i.e. colors) for my blogging experience
+Version: 0.0.1
+Authors@R: c(person("Luke", "Smith", , "lukedansmi@sbcglobal.net", c("aut", "cre")))
+Maintainer: Luke Smith <lukedansmi@sbcglobal.net>
+Description: Simplify the blogging process, such as: scraping, formatting,
+  coloring, cruching, etc data.
+License: GPL-2 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: data.table,
+  dplyr,
+  ggplot2,
+  knitr,
+  lubridate,
+  purrr,
+  stringi,
+  tibble
+RoxygenNote: 6.0.1
