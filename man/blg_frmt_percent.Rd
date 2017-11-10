@@ -4,11 +4,9 @@
 \alias{blg_frmt_percent}
 \title{Control how percentages are printed.}
 \usage{
-blg_frmt_percent(x, i = 1)
+blg_frmt_percent(i = 1)
 }
 \arguments{
-\item{x}{A number (percent) to be formatted.}
-
 \item{i}{Number of figures to the right
 of the decimal to show (default = 1)}
 }

@@ -2,9 +2,12 @@
 
 export(blg_bind_list_rows)
 export(blg_days_in_year)
-export(blg_frmt_cap)
+export(blg_frmt_capitalize)
+export(blg_frmt_erase)
 export(blg_frmt_percent)
+export(blg_frmt_stagger)
 export(blg_frmt_wrap)
+export(blg_frmt_wrap_stagger)
 export(blg_opts_R)
 export(blg_opts_knitr_chunk)
 export(blg_opts_knitr_hooks)

@@ -4,11 +4,9 @@
 \alias{blg_frmt_wrap}
 \title{Wrap long strings with a line break literal}
 \usage{
-blg_frmt_wrap(x, length)
+blg_frmt_wrap(length = 18)
 }
 \arguments{
-\item{x}{A character vector of one or more strings.}
-
 \item{length}{A number specifying how many characters to include in each line
 before inserting the line break literal.}
 }
