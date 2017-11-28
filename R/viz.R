@@ -16,14 +16,14 @@ plot_lines <- function(data, dc_order = 1L) {
 
   num_cols <- which(are_numbers)
 
-  data <- select(data, date_col, num_cols)
-  data <- gather(data, ... = -c(date_col))
+  data <- dplyr::select(data, date_col, num_cols)
+  data <- tidyr::gather(data, ... = -c(date_col))
 
   names(data)[1] <- "date"
 
-  gg <- ggplot(data, aes(date, value, group = key)) +
-    geom_line() +
-    facet_wrap(~key, scales = "free")
+  gg <- ggplot2::ggplot(data, ggplot2::aes(date, value, group = key)) +
+    ggplot2::geom_line() +
+    ggplot2::facet_wrap(~key, scales = "free")
 
   return(gg)
 }
